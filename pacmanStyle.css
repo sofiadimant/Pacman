@@ -1,0 +1,459 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+html, body {
+    height: 100%;
+     background-color: #fff;
+    color: #545454;
+	font-weight: 300;
+    font-size: 20;
+	 font-family: 'LatoWebLight', 'Arial', sans-serif;
+}
+#header
+{
+    width:100%;
+    height:10%;
+    background:white;
+    background-color: inherit;
+
+}
+
+#header img{
+    width:23%;
+    height: 120%;
+}
+
+#header div {
+    margin: 0.5%;
+    float:right;
+    width:10%;
+}
+#header div label{
+    font-size: 20px;
+    color: #034F84;
+}
+
+#menu
+{
+    margin: auto;
+    background:black;
+    height: 10%;
+    margin-bottom: 1%;
+	width:100%;
+	opacity:0.7;
+}
+
+#menu ul
+{
+    float:left;
+    height:100%;
+    width: 100%;
+    font-size: 0;
+}
+#menu ul li
+{
+    width: 25%;
+    height: 100%;
+    background:  #0086b3;
+	list-style-type:none;
+	display:inline-block;
+}
+#menu ul li button
+{
+	background-color: Transparent;
+	border-color: Transparent;
+    height: 100%;
+    width: 100%;
+	color:white;
+	cursor: pointer;	
+	font-family: myFirstFont;
+    font-size: 20px;
+}
+#menu ul li button:focus
+{
+	background-color: #E0E0E0;
+	border-color: Transparent;
+}
+#menu ul li:hover
+{
+     color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+#logo
+{
+	height: 50px;
+    width: auto;
+    float: left;
+    margin-top: -55px;
+    margin-left: 5px;
+}
+
+#register{
+    height:100%;
+    width: 100%;
+    text-align: center;
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/welcomeBackground.png);
+    background-size: cover;
+    background-position: center;
+
+}
+form {
+
+    margin: auto;
+    width:100%;
+    height: 100%;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+label.error {
+    font-size: 30px;
+    margin:100px;
+}
+
+.formLabelsContent{
+    margin: auto;
+    border: 0;
+    margin-top: 1%;
+
+    display: block;
+    font-family:mySecFont ;
+    font-size: 25px;
+    font-size: 2vh;
+}
+
+.inputForm{
+    margin-top: 0.5%;
+    width: 20%;
+    height: 5%;
+    background: #fff;
+    color: #000;
+    padding: 0 6px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.buttonForm{
+    width: 15%;
+    height: 7%;
+	font-family:mySecFont ;
+    font-size: 20px;
+    font-size: 2vh;
+    background:  #0086b3;
+    color: #fff;
+    margin-top: 0.5%;
+    cursor: pointer;
+	
+}
+
+form .error {
+    color: #ff0000;
+}
+
+#game {
+    height: 100%;
+    width: 100%;
+    float: left;
+	
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/welcomeBackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.ingame{
+}
+
+#labels {
+    position: relative;
+    text-align: center;
+    float: inherit;
+    font-size: 35px;
+    width: 20%;
+    height: 80%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+canvas
+{
+    margin: 3% 5% 0 5%;
+    float: left;
+    width: 70%;
+    height: 85%;
+	background-color:#0086b3;
+	opacity:0.8;
+	
+}
+
+#content
+{
+    width:100%;
+    height: 76%;
+    background-color: #91A8D0;
+}
+
+input
+{
+    background-color: transparent;
+    border: 0px solid;
+}
+
+#startButton{
+	text-align: center;
+    width:90%;
+    height:10%;
+	right: 5%;
+    bottom: 2%;
+    background:  #0086b3;
+    color: #fff;
+	font-family:mySecFont ;
+    font-size: 20px;
+    font-size: 2vh;
+}
+
+.inputLabel{
+    height: 10%;
+    font-size: 25px;
+    font-size: 2vw;
+    text-align: center;
+    width: 100%;
+	color: #ffff;
+}
+
+p {
+    font-size: 20px;
+    font-size: 2vw;
+}
+
+#setupButton{
+	text-align: center;
+    width:90%;
+    height:10%;
+	right: 5%;
+    bottom: 2%;
+    background:  #0086b3;
+    color: #fff;
+	font-family:mySecFont ;
+    font-size: 20px;
+    font-size: 2vh;
+}
+
+.headerLabels {
+
+    margin-bottom: 1%;
+    font-size: 20px;
+    width: inherit;
+    height: 10%;
+    text-align: center;
+	color:#ffff;
+}
+
+#hearts{
+    height: 10%;
+}
+.heartsImages{
+    height: 100%;
+    width: 20%;
+}
+
+#footer {
+    background-color: black;
+    height:7%;
+    width:100%;
+}
+#footer p{
+    text-align: left;
+    margin: 1%;
+    font-size: 20px;
+}
+#footer div{
+    text-align: right;
+    margin: 1%;
+    float: right;
+}
+
+a{
+    text-color: #034F84;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#welcome
+{
+    height:100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/welcomeBackground.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+#welcome button
+{
+    margin: 0.6%;
+    width: 18%;
+    height: 15%;
+	color:white;
+    font-family: myFirstFont;
+    font-size: 20px;
+    background-color: #0086b3;
+}
+#welcome label
+{
+    color: white;
+    font-size: 50px;
+    font-family: myFirstFont;
+}
+#welcome img
+{
+    margin: 0.5%;
+    height: 15%;
+    width: 8%;
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/PAC-FONT.TTF);
+}
+@font-face {
+    font-family: mySecFont;
+    src: url(fonts/emulogic.ttf);
+}
+#logIn{
+    text-align: center;
+    margin: auto;
+    width:100%;
+    height: 100%;
+    color: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/welcomeBackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+
+.formLabelsHeader{
+    font-family:mySecFont ;
+    font-size: 40px;
+    font-size: 2vw;
+    margin-top: 100px;
+}
+
+#setup {
+    text-align: center;
+    height: 100%;
+	background-size: cover;
+    background-position: center;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/welcomeBackground.png);
+}
+#setupForm {
+    height: 100%;
+}
+
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+
+}
+
+.modal-content{
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border:1px solid #888;
+    width:60%;
+    height: 40%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+	
+	
+
+}
+.modal p{
+    margin:1%;
+    font-size: 20px;
+}
+
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to{top:0; opacity: 1}
+
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top:0; opacity: 1}
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color:lightskyblue;
+    color: white;
+	
+	font-family: myFirstFont;
+    font-size: 15px;
+}
+
+#userNameDisplay{
+    float: left;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif ;
+    font-size: 25px;
+    font-size: 2vw;
+    height:100%;
+    width: 0%;
+}
+
+div.message{
+    padding-left: 7px;
+    font-size: 25px;
+}
+
+div.error{
+    padding: 5px;
+}
+
+#datePicker{
+    width: 10%;
+    margin: 1%;
+}
+
